@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+.course-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date-time-container {
+  display: flex;
+}
+
+.clock {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  height: 20px;
+  width: 20px;
+}
+
+.list-item {
+  color: #25262c;
+  background-color: #e2e8f0;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+  border-radius: 4px;
+  line-height: 1.6;
+  padding: 4px 8px;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  list-style-type: none;
+}
+
+.list-container {
+  display: flex;
+  flex-grow: wrap;
+}
